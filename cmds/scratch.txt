@@ -1,0 +1,12 @@
+
+
+
+docker run --publish 5432:5432 -v $PWD:/etc/pgconfig  --name pg1 --net nw1 -e POSTGRES_HOST_AUTH_METHOD=trust -d postgres  -c 'config_file=/etc/pgconfig/postgresql.conf' 
+
+
+docker run --net nw1 -it --name Deb1 -v /Users/taavoraykoff/Dropbox/tpch:/mnt debian bash
+
+
+
+
+

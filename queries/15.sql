@@ -3,6 +3,8 @@
 -- Functional Query Definition
 -- Approved February 1998
 :x
+drop view if exists revenue:s;
+
 create view revenue:s (supplier_no, total_revenue) as
 	select
 		l_suppkey,
@@ -36,5 +38,4 @@ where
 order by
 	s_suppkey;
 
-drop view revenue:s;
-:n -1
+drop view revenue:s;;

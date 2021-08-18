@@ -1,11 +1,12 @@
 #!/bin/bash
 
 
-DB="time docker exec -i PG1 psql  -a -U postgres ";
+DB="time  psql -h pg1  -a -U postgres tpch ";
 
 
-for i in {1..22};
-	do $DB < query-$i.sql ; 
+for i in `ls /tmp/query-*.sql`; do 
+	echo "Query: $i...";
+	$DB < $i ; 
 done;
 
 
