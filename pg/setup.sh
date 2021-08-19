@@ -2,7 +2,7 @@
 
 ##docker run --net NW1 --name PG1  -e POSTGRES_HOST_AUTH_METHOD=trust -d postgres:latest
 
-DB="time psql  -a -U postgres -h pg1 ";
+DB="time psql  -a -U postgres -h ${1:-pg1} ";
 
 $DB -c "DROP DATABASE IF EXISTS tpch;";
 $DB -c "CREATE DATABASE tpch;";
