@@ -67,3 +67,5 @@
 #define  S_CMNT_SD     36
 #define  L_CMNT_SD     25
 
+#define STUFF_LEN 100
+#define STUFF_MAX 160

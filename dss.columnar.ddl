@@ -63,7 +63,12 @@ create table orders  ( o_orderkey       integer not null,
                            o_orderpriority  char(15) not null,  
                            o_clerk          char(15) not null, 
                            o_shippriority   integer not null,
-                           o_comment        varchar(79) not null
+                           o_comment        varchar(79) not null,
+                           stuff_1          varchar(160) not null,
+                           stuff_2          varchar(160)  not null,
+                           stuff_3          varchar(160)  not null,
+                           stuff_4          varchar(160)  not null,
+                           stuff_5          varchar(160)  not null 
                            ) using columnar ;
 
 create table lineitem ( l_orderkey    integer not null,
@@ -81,8 +86,13 @@ create table lineitem ( l_orderkey    integer not null,
                              l_receiptdate date not null,
                              l_shipinstruct char(25) not null,
                              l_shipmode     char(10) not null,
-                             l_comment      varchar(44) not null
+                             l_comment      varchar(44) not null,
 
+                            stuff_1          varchar(160) not null,
+                            stuff_2          varchar(160)  not null,
+                            stuff_3          varchar(160)  not null,
+                            stuff_4          varchar(160)  not null,
+                            stuff_5          varchar(160)  not null 
                            
                            ) using columnar ;
 

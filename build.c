@@ -191,7 +191,16 @@ mk_order(DSS_HUGE index, order_t * o, long upd_num)
 	pick_str(&o_priority_set, O_PRIO_SD, o->opriority);
 	RANDOM(clk_num, 1, MAX((scale * O_CLRK_SCL), O_CLRK_SCL), O_CLRK_SD);
 	sprintf(o->clerk, szFormat, O_CLRK_TAG, clk_num);
+
 	TEXT(O_CMNT_LEN, O_CMNT_SD, o->comment);
+
+	//STUFF_MAX
+	TEXT(STUFF_LEN, STUFF_LEN/10, o->stuff_1);
+	TEXT(STUFF_LEN, STUFF_LEN/10, o->stuff_2);
+	TEXT(STUFF_LEN, STUFF_LEN/10, o->stuff_3);
+	TEXT(STUFF_LEN, STUFF_LEN/10, o->stuff_4);
+	TEXT(STUFF_LEN, STUFF_LEN/10, o->stuff_5); 
+	
 	o->clen = (int)strlen(o->comment);
 #ifdef DEBUG
 	if (o->clen > O_CMNT_MAX)
@@ -214,6 +223,13 @@ mk_order(DSS_HUGE index, order_t * o, long upd_num)
 		pick_str(&l_instruct_set, L_SHIP_SD, o->l[lcnt].shipinstruct);
 		pick_str(&l_smode_set, L_SMODE_SD, o->l[lcnt].shipmode);
 		TEXT(L_CMNT_LEN, L_CMNT_SD, o->l[lcnt].comment);
+
+		TEXT(STUFF_LEN, STUFF_LEN/10, o->l[lcnt].stuff_1);
+		TEXT(STUFF_LEN, STUFF_LEN/10, o->l[lcnt].stuff_2);
+		TEXT(STUFF_LEN, STUFF_LEN/10, o->l[lcnt].stuff_3);
+		TEXT(STUFF_LEN, STUFF_LEN/10, o->l[lcnt].stuff_4);
+		TEXT(STUFF_LEN, STUFF_LEN/10, o->l[lcnt].stuff_5); 
+
 		o->l[lcnt].clen = (int)strlen(o->l[lcnt].comment);
 		if (scale >= 30000)
 			RANDOM64(o->l[lcnt].partkey, L_PKEY_MIN, L_PKEY_MAX, L_PKEY_SD);

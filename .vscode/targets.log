@@ -1,0 +1,1234 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sun Aug 22 18:23:55 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `makefile', line 156)
+TEST_RES = O.res L.res c.res s.res P.res S.res n.res r.res
+# makefile (from `makefile', line 117)
+OBJ = .o
+# makefile (from `makefile', line 141)
+SRC = $(SRC1) $(SRC2)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `makefile', line 158)
+DBGENSRC = $(SRC1) $(HDR1) $(OTHER) $(DOC) $(SRC2) $(HDR2) $(SRC3)
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from `makefile', line 118)
+EXE = 
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/taavoraykoff/Dropbox/tpch/tpch
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `makefile', line 113)
+CFLAGS = -g -DDBNAME=\"dss\" -D$(MACHINE) -D$(DATABASE) -D$(WORKLOAD) -DRNG_TEST -D_FILE_OFFSET_BITS=64 
+# makefile (from `makefile', line 153)
+WINDOWS_IDE = tpch.dsw dbgen.dsp tpch.sln tpch.vcproj qgen.vcproj
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# makefile (from `makefile', line 152)
+DDL = dss.ddl dss.ri
+# makefile (from `makefile', line 138)
+SRC1 = build.c driver.c bm_utils.c rnd.c print.c load_stub.c bcd2.c speed_seed.c text.c permute.c rng64.c
+# makefile (from `makefile', line 123)
+VERSION = 2
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# makefile (from `makefile', line 168)
+TREE_DOC = tree.readme tree.changes appendix.readme appendix.version answers.readme queries.readme variants.readme
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/m6/8gxtk2z141gb5jw_cbs974p00000gn/T/vscode-ipc-6c0f1572-6846-47c1-a299-6372de503ace.sock
+# environment
+VSCODE_CWD = /
+# makefile (from `makefile', line 124)
+RELEASE = 13
+# environment
+PATH = /usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# makefile (from `makefile', line 127)
+NEW_BUILD = `expr ${BUILD} + 1`
+# makefile (from `makefile', line 143)
+OBJ1 = build$(OBJ) driver$(OBJ) bm_utils$(OBJ) rnd$(OBJ) print$(OBJ) load_stub$(OBJ) bcd2$(OBJ) speed_seed$(OBJ) text$(OBJ) permute$(OBJ) rng64$(OBJ)
+# makefile (from `makefile', line 140)
+SRC2 = qgen.c varsub.c 
+# environment
+LaunchInstanceID = 81A90F62-43A4-4090-AD1E-87C1FA851A6D
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `makefile', line 114)
+LDFLAGS = -O
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `makefile', line 130)
+PROG1 = dbgen$(EXE)
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.B8HnPdDare/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `makefile', line 173)
+JUNK = 
+# makefile (from `makefile', line 150)
+SETS = dists.dss 
+# environment
+HISTFILESIZE = 
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `makefile', line 148)
+OBJS = $(OBJ1) $(OBJ2)
+# environment
+PWD = /Users/taavoraykoff/Dropbox/tpch/tpch
+# makefile (from `makefile', line 164)
+ANS = answers/q1.out answers/q2.out answers/q3.out answers/q4.out answers/q5.out answers/q6.out answers/q7.out answers/q8.out answers/q9.out answers/q10.out answers/q11.out answers/q12.out answers/q13.out answers/q14.out answers/q15.out answers/q16.out answers/q17.out answers/q18.out answers/q19.out answers/q20.out answers/q21.out answers/q22.out
+# environment
+HISTTIMEFORMAT = [%F %T] 
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `makefile', line 170)
+REFERENCE_DATA = referenceData/[13]*
+# makefile (from `makefile', line 159)
+FQD = queries/1.sql queries/2.sql queries/3.sql queries/4.sql queries/5.sql queries/6.sql queries/7.sql queries/8.sql queries/9.sql queries/10.sql queries/11.sql queries/12.sql queries/13.sql queries/14.sql queries/15.sql queries/16.sql queries/17.sql queries/18.sql queries/19.sql queries/20.sql queries/21.sql queries/22.sql
+# makefile (from `makefile', line 136)
+HDR = $(HDR1) $(HDR2)
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /Users/taavoraykoff
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/taavoraykoff/Library/Application Support/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
+# environment
+LOGNAME = taavoraykoff
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from `makefile', line 131)
+PROG2 = qgen$(EXE)
+# makefile (from `makefile', line 163)
+VARIANTS = variants/8a.sql variants/12a.sql variants/13a.sql variants/14a.sql variants/15a.sql 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `makefile', line 111)
+WORKLOAD = TPCH
+# environment
+XPC_FLAGS = 0x0
+# environment
+HISTFILE = /Users/taavoraykoff/.bash_eternal_history
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# makefile (from `makefile', line 103)
+CC = gcc
+# makefile (from `makefile', line 134)
+HDR1 = dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = taavoraykoff
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `makefile', line 172)
+ALLSRC = $(DBGENSRC) $(REFERENCE) $(QSRC) $(SCRIPTS)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `makefile', line 146)
+OBJ2 = build$(OBJ) bm_utils$(OBJ) qgen$(OBJ) rnd$(OBJ) varsub$(OBJ) text$(OBJ) bcd2$(OBJ) permute$(OBJ) speed_seed$(OBJ) rng64$(OBJ)
+# makefile (from `makefile', line 125)
+PATCH = 0
+# makefile (from `makefile', line 167)
+QSRC = $(FQD) $(VARIANTS) $(ANS)
+# makefile (from `makefile', line 169)
+ 
+REFERENCE = reference/[tcR]*
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `makefile', line 151)
+DOC = README HISTORY PORTING.NOTES BUGS
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/m6/8gxtk2z141gb5jw_cbs974p00000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/taavoraykoff/Library/Application Support/Code/1.59.1-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.12954987795.12954987801
+# makefile (from `makefile', line 128)
+TREE_ROOT = /tmp/tree
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `makefile', line 135)
+HDR2 = tpcd.h permute.h
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `makefile', line 126)
+BUILD = `grep BUILD release.h | cut -f3 -d' '`
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
+# automatic
+<F = $(notdir $<)
+# makefile (from `makefile', line 132)
+PROGS = $(PROG1) $(PROG2)
+# makefile (from `makefile', line 154)
+OTHER = makefile.suite $(SETS) $(DDL) $(WINDOWS_IDE)
+# environment
+LC_ALL = C
+# makefile (from `makefile', line 109)
+DATABASE = ORACLE
+# makefile (from `makefile', line 119)
+LIBS = -lm
+# environment
+SECURITYSESSIONID = 186a7
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+HISTSIZE = 
+# makefile (from `makefile', line 110)
+MACHINE = LINUX
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# makefile (from `makefile', line 171)
+SCRIPTS = check55.sh column_split.sh dop.sh gen_tasks.sh last_row.sh load_balance.sh new55.sh check_dirs.sh
+# environment
+VSCODE_PID = 1449
+# variable set hash-table stats:
+# Load=113/1024=11%, Rehash=0, Collisions=56/231=24%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777223, inode 12954096031): 80 files, no impossibilities.
+# reference (device 16777223, inode 12954096274): 32 files, no impossibilities.
+
+# 112 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+check55.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+varsub.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q10.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_base_small:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q16.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dists.dss:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-20 17:07:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+answers/q11.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile.suite:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dss.ddl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+shared.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+queries/4.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+column_split.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_update_sf300:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q17.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+release.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-20 17:07:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+reference/cmd_qgen_sf1:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bm_utils.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: dbgen qgen
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+reference/cmd_update_sf3000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_base_sf1:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tpcd.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+rng64.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h dss.h tpcd.h config.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+driver.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+answers/q12.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bcd2.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tpch.vcproj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+rnd.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_update_sf30000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q2.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+README:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/14.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tpch.sln:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+text.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+permute.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q18.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+zip: build.c driver.c bm_utils.c rnd.c print.c load_stub.c bcd2.c speed_seed.c text.c permute.c rng64.c dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h makefile.suite dists.dss dss.ddl dss.ri tpch.dsw dbgen.dsp tpch.sln tpch.vcproj qgen.vcproj README HISTORY PORTING.NOTES BUGS qgen.c varsub.c tpcd.h permute.h reference/README.txt reference/cmd_base_sf1 reference/cmd_base_sf100 reference/cmd_base_sf1000 reference/cmd_base_sf10000 reference/cmd_base_sf100000 reference/cmd_base_sf300 reference/cmd_base_sf3000 reference/cmd_base_sf30000 reference/cmd_base_small reference/cmd_qgen_sf1 reference/cmd_qgen_sf100 reference/cmd_qgen_sf1000 reference/cmd_qgen_sf10000 reference/cmd_qgen_sf100000 reference/cmd_qgen_sf300 reference/cmd_qgen_sf3000 reference/cmd_qgen_sf30000 reference/cmd_update_sf1 reference/cmd_update_sf100 reference/cmd_update_sf1000 reference/cmd_update_sf10000 reference/cmd_update_sf100000 reference/cmd_update_sf300 reference/cmd_update_sf3000 reference/cmd_update_sf30000 reference/trim_updates.sh queries/1.sql queries/2.sql queries/3.sql queries/4.sql queries/5.sql queries/6.sql queries/7.sql queries/8.sql queries/9.sql queries/10.sql queries/11.sql queries/12.sql queries/13.sql queries/14.sql queries/15.sql queries/16.sql queries/17.sql queries/18.sql queries/19.sql queries/20.sql queries/21.sql queries/22.sql variants/8a.sql variants/12a.sql variants/13a.sql variants/14a.sql variants/15a.sql answers/q1.out answers/q2.out answers/q3.out answers/q4.out answers/q5.out answers/q6.out answers/q7.out answers/q8.out answers/q9.out answers/q10.out answers/q11.out answers/q12.out answers/q13.out answers/q14.out answers/q15.out answers/q16.out answers/q17.out answers/q18.out answers/q19.out answers/q20.out answers/q21.out answers/q22.out check55.sh column_split.sh dop.sh gen_tasks.sh last_row.sh load_balance.sh new55.sh check_dirs.sh
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 190):
+	zip -r tpch_${VERSION}_${RELEASE}_${PATCH}.zip $(ALLSRC) -x *.svn*
+	zip -r reference_${VERSION}_${RELEASE}_${PATCH}.zip $(REFERENCE_DATA) -x *.svn*
+	
+
+# Not a target:
+queries/7.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+last_row.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_base_sf100:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q20.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q9.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+HISTORY:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+print.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+answers/q5.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_base_sf1000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/6.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dss.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+queries/5.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bcd2.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-20 17:07:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+dop.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+rnd.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-20 17:07:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+reference/cmd_base_sf10000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+BUGS:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/trim_updates.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q21.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+answers/q13.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+permute.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-20 17:07:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h dss.h tpcd.h config.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+reference/cmd_base_sf100000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q22.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_update_sf1:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/1.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/11.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_qgen_sf300:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+qgen: permute.h build.o bm_utils.o qgen.o rnd.o varsub.o text.o bcd2.o permute.o speed_seed.o rng64.o
+#  Implicit rule search has not been done.
+#  Last modified 2021-08-22 18:22:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 179):
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(OBJ2) $(LIBS)
+	
+
+qgen.o: dss.h tpcd.h config.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+answers/q19.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+load_stub.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h
+#  Implicit rule search has been done.
+ 
+#  Last modified 2021-08-22 18:22:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+queries/10.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_update_sf100:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dsstypes.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+rng64.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_qgen_sf3000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+driver.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q15.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/16.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q4.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+variants/12a.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+speed_seed.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h dss.h tpcd.h config.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+reference/cmd_update_sf1000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_qgen_sf30000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/2.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/17.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/20.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_update_sf10000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dbgen.dsp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+release:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 193):
+	make -f makefile.suite tar
+	make -f makefile.suite zip
+	( cd tests; sh test_list.sh `date '+%Y%m%d'` )
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+config.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-20 17:07:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+print.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q3.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_update_sf100000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/12.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+rng64.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-20 17:07:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+new55.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+varsub.o: dss.h tpcd.h config.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+variants/14a.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+load_balance.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/21.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 181):
+	rm -f $(PROGS) $(OBJS) $(JUNK)
+	
+
+# Not a target:
+queries/18.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+variants/13a.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/3.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tar: build.c driver.c bm_utils.c rnd.c print.c load_stub.c bcd2.c speed_seed.c text.c permute.c rng64.c dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h makefile.suite dists.dss dss.ddl dss.ri tpch.dsw dbgen.dsp tpch.sln tpch.vcproj qgen.vcproj README HISTORY PORTING.NOTES BUGS qgen.c varsub.c tpcd.h permute.h reference/README.txt reference/cmd_base_sf1 reference/cmd_base_sf100 reference/cmd_base_sf1000 reference/cmd_base_sf10000 reference/cmd_base_sf100000 reference/cmd_base_sf300 reference/cmd_base_sf3000 reference/cmd_base_sf30000 reference/cmd_base_small reference/cmd_qgen_sf1 reference/cmd_qgen_sf100 reference/cmd_qgen_sf1000 reference/cmd_qgen_sf10000 reference/cmd_qgen_sf100000 reference/cmd_qgen_sf300 reference/cmd_qgen_sf3000 reference/cmd_qgen_sf30000 reference/cmd_update_sf1 reference/cmd_update_sf100 reference/cmd_update_sf1000 reference/cmd_update_sf10000 reference/cmd_update_sf100000 reference/cmd_update_sf300 reference/cmd_update_sf3000 reference/cmd_update_sf30000 reference/trim_updates.sh queries/1.sql queries/2.sql queries/3.sql queries/4.sql queries/5.sql queries/6.sql queries/7.sql queries/8.sql queries/9.sql queries/10.sql queries/11.sql queries/12.sql queries/13.sql queries/14.sql queries/15.sql queries/16.sql queries/17.sql queries/18.sql queries/19.sql queries/20.sql queries/21.sql queries/22.sql variants/8a.sql variants/12a.sql variants/13a.sql variants/14a.sql variants/15a.sql answers/q1.out answers/q2.out answers/q3.out answers/q4.out answers/q5.out answers/q6.out answers/q7.out answers/q8.out answers/q9.out answers/q10.out answers/q11.out answers/q12.out answers/q13.out answers/q14.out answers/q15.out answers/q16.out answers/q17.out answers/q18.out answers/q19.out answers/q20.out answers/q21.out answers/q22.out check55.sh column_split.sh dop.sh gen_tasks.sh last_row.sh load_balance.sh new55.sh check_dirs.sh
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 187):
+ 
+	tar cvhf - $(ALLSRC) --exclude .svn\*/\* |gzip - > tpch_${VERSION}_${RELEASE}_${PATCH}.tar.gz
+	tar cvhf - $(REFERENCE_DATA) --exclude .svn\*/\* |gzip - > reference_${VERSION}_${RELEASE}_${PATCH}.tar.gz
+	
+
+# Not a target:
+queries/22.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q14.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tpch.dsw:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+gen_tasks.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bm_utils.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h dss.h tpcd.h config.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+qgen.vcproj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+check_dirs.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+qgen.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q6.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+load_stub.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_base_sf300:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bcd2.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h dss.h tpcd.h config.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+queries/13.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+PORTING.NOTES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+rnd.o: rnd.h dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h dss.h tpcd.h config.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+lint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 183):
+	lint $(CFLAGS) -u -x -wO -Ma -p $(SRC1)
+	lint $(CFLAGS) -u -x -wO -Ma -p $(SRC2)
+	
+
+# Not a target:
+queries/9.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_qgen_sf100:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/8.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+variants/15a.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+text.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h dss.h tpcd.h config.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+permute.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h rng64.h release.h dss.h tpcd.h config.h rng64.h release.h
+#  Implicit rule search has been done.
+#  Last modified 2021-08-22 18:22:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+answers/q7.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+speed_seed.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_base_sf3000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_qgen_sf1000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_base_sf30000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/19.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_qgen_sf10000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q1.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dss.ri:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queries/15.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dbgen: build.o driver.o bm_utils.o rnd.o print.o load_stub.o bcd2.o speed_seed.o text.o permute.o rng64.o dists.dss
+#  Implicit rule search has not been done.
+#  Last modified 2021-08-22 18:22:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 177):
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(OBJ1) $(LIBS)
+	
+
+# Not a target:
+reference/README.txt:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reference/cmd_qgen_sf100000:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+variants/8a.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+answers/q8.out:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=144/1024=14%, Rehash=0, Collisions=44/570=8%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Aug 22 18:23:56 2021
+
+ 
