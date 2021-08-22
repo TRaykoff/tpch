@@ -1,30 +1,37 @@
 #!/bin/bash
 
-##docker run --net NW1 --name PG1  -e POSTGRES_HOST_AUTH_METHOD=trust -d postgres:latest
 
-DB="time psql  -a -U postgres -h ${1:-pg1} ";
+DB="time docker  exec -i ${1:-pg1}  psql  -a -U postgres  ";
+TBL_PATH="${2:-/tmp}"
+DDL="${3:-../dss.ddl}"
+
+echo "DB command: $DB"
+echo "Table path: $TBL_PATH"
+echo "DDL: $DDL"
+ 
 
 $DB -c "DROP DATABASE IF EXISTS tpch;";
 $DB -c "CREATE DATABASE tpch;";
 
 DB="$DB   tpch";
 
-$DB < ../dss.ddl 
+$DB < $DDL 
 
 
-for i in `ls /tmp/*.tbl`; do
+for i in `ls $TBL_PATH/*.tbl`; do
   j=${i%.tbl}
-  table=${j#/tmp/}
+  table=`basename $j`
   echo "Loading $table..." 
   $DB -c  "TRUNCATE $table"
   $DB -c "\\copy $table FROM STDIN CSV DELIMITER '|'" < $i
 done
 
+if [[ ! $DDL == *columnar* ]]; then
+	$DB < ../dss.ri;
+fi;
 
-$DB < ../dss.ri;
 
-
-$DB -c "ANALYZE";
+$DB -c "VACUUM ANALYZE";
 
 
 

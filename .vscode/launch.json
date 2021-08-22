@@ -11,6 +11,13 @@
             "program": "pg/run.py",
             "console": "integratedTerminal",
             "args": [ "/tmp/query-15.sql" ]
+        },
+        {
+            "name": "Debug DBGEN",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/dbgen",
+            "args": ["-s 0.1", "-f", "-v"],
         }
     ]
 }
