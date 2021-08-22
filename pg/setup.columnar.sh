@@ -13,7 +13,7 @@ $DB -c "CREATE DATABASE tpch;";
 
 DB="$DB   tpch";
 
-$DB < ../dss.ddl 
+$DB < ../dss.columnar.ddl 
 
 
 for i in `ls $TBL_PATH/*.tbl`; do
@@ -25,7 +25,7 @@ for i in `ls $TBL_PATH/*.tbl`; do
 done
 
 
-$DB < ../dss.ri;
+#####$DB < ../dss.ri;
 
 
 $DB -c "VACUUM VERBOSE ANALYZE";

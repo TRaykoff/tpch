@@ -28,7 +28,7 @@ done
 $DB < ../dss.ri;
 
 
-$DB -c "VACUUM VERBOSE ANALYZE";
+$DB -c "ANALYZE";
 
 
 
