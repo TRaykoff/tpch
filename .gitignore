@@ -2,3 +2,5 @@
 dbgen
 qgen
 *.tbl
+*~
+

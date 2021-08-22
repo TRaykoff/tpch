@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"makefile.launchConfigurations": [
+			{
+				"cwd": "/Users/taavoraykoff/Dropbox/tpch/tpch",
+				"binaryPath": "/Users/taavoraykoff/Dropbox/tpch/tpch/dbgen",
+				"binaryArgs": []
+			}
+		],
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "tpch",
+				"database": "tpch",
+				"username": "postgres",
+				"password": ""
+			}
+		]
+	}
+}

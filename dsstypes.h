@@ -74,9 +74,14 @@ typedef struct
     char           shipinstruct[MAXAGG_LEN + 1];
     char           shipmode[MAXAGG_LEN + 1];
     char           comment[L_CMNT_MAX + 1];
+    char            stuff_1 [STUFF_MAX+1];
+    char            stuff_2 [STUFF_MAX+1];
+    char            stuff_3 [STUFF_MAX+1];
+    char            stuff_4 [STUFF_MAX+1];
+    char            stuff_5 [STUFF_MAX+1];
     int            clen;
 }               line_t;
-
+ 
 typedef struct
 {
     DSS_HUGE	    okey;
@@ -89,6 +94,12 @@ typedef struct
     long            spriority;
     DSS_HUGE            lines;
     char            comment[O_CMNT_MAX + 1];
+    char            stuff_1 [STUFF_MAX+1];
+    char            stuff_2 [STUFF_MAX+1];
+    char            stuff_3 [STUFF_MAX+1];
+    char            stuff_4 [STUFF_MAX+1];
+    char            stuff_5 [STUFF_MAX+1];
+
     int            clen;
     line_t          l[O_LCNT_MAX];
 }               order_t;

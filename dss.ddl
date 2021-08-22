@@ -49,7 +49,15 @@ CREATE TABLE ORDERS  ( O_ORDERKEY       INTEGER NOT NULL,
                            O_ORDERPRIORITY  CHAR(15) NOT NULL,  
                            O_CLERK          CHAR(15) NOT NULL, 
                            O_SHIPPRIORITY   INTEGER NOT NULL,
-                           O_COMMENT        VARCHAR(79) NOT NULL);
+                           O_COMMENT        VARCHAR(79) NOT NULL,
+			   
+			   STUFF_1 VARCHAR (160) NOT NULL,
+			   STUFF_2 VARCHAR (160) NOT NULL,
+			   STUFF_3 VARCHAR (160) NOT NULL,
+			   STUFF_4 VARCHAR (160) NOT NULL,
+			   STUFF_5 VARCHAR (160) NOT NULL
+			   
+			   );
 
 CREATE TABLE LINEITEM ( L_ORDERKEY    INTEGER NOT NULL,
                              L_PARTKEY     INTEGER NOT NULL,
@@ -66,5 +74,12 @@ CREATE TABLE LINEITEM ( L_ORDERKEY    INTEGER NOT NULL,
                              L_RECEIPTDATE DATE NOT NULL,
                              L_SHIPINSTRUCT CHAR(25) NOT NULL,
                              L_SHIPMODE     CHAR(10) NOT NULL,
-                             L_COMMENT      VARCHAR(44) NOT NULL);
+                             L_COMMENT      VARCHAR(44) NOT NULL,
+			      
+			   STUFF_1 VARCHAR (160) NOT NULL,
+			   STUFF_2 VARCHAR (160) NOT NULL,
+			   STUFF_3 VARCHAR (160) NOT NULL,
+			   STUFF_4 VARCHAR (160) NOT NULL,
+			   STUFF_5 VARCHAR (160) NOT NULL
+			     );
 

@@ -200,7 +200,12 @@ pr_order(order_t *o, int mode)
     PR_STR(fp_o, o->opriority, O_OPRIO_LEN);
     PR_STR(fp_o, o->clerk, O_CLRK_LEN);
     PR_INT(fp_o, o->spriority);
-    PR_VSTR_LAST(fp_o, o->comment, o->clen);
+    PR_VSTR(fp_o, o->comment, o->clen);
+    PR_VSTR(fp_o, o->stuff_1, strlen(o->stuff_1));
+    PR_VSTR(fp_o, o->stuff_2, strlen(o->stuff_2));
+    PR_VSTR(fp_o, o->stuff_3, strlen(o->stuff_3));
+    PR_VSTR(fp_o, o->stuff_4, strlen(o->stuff_4));
+    PR_VSTR_LAST(fp_o, o->stuff_5, strlen(o->stuff_5));
     PR_END(fp_o);
 
     return(0);
@@ -242,7 +247,12 @@ pr_line(order_t *o, int mode)
         PR_STR(fp_l, o->l[i].rdate, DATE_LEN);
         PR_STR(fp_l, o->l[i].shipinstruct, L_INST_LEN);
         PR_STR(fp_l, o->l[i].shipmode, L_SMODE_LEN);
-        PR_VSTR_LAST(fp_l, o->l[i].comment,o->l[i].clen);
+        PR_VSTR(fp_l, o->l[i].comment,o->l[i].clen);
+        PR_VSTR     (fp_l, o->l[i].stuff_1, strlen(o->l[i].stuff_1));
+        PR_VSTR     (fp_l, o->l[i].stuff_2, strlen(o->l[i].stuff_2));
+        PR_VSTR     (fp_l, o->l[i].stuff_3, strlen(o->l[i].stuff_3));
+        PR_VSTR     (fp_l, o->l[i].stuff_4, strlen(o->l[i].stuff_4));
+        PR_VSTR_LAST(fp_l, o->l[i].stuff_5, strlen(o->l[i].stuff_5));
         PR_END(fp_l);
         }
 
